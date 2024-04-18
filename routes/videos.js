@@ -1,6 +1,18 @@
 import express from "express"
 const router = express.Router()
 import videoData from "../data/video_data.json" assert { type: "json" }
+import fs from "fs";
+
+function getRandomDuration() {
+    let totalSeconds = Math.floor(Math.random() * (420 - 180 + 1) + 180);
+
+    let minutes = Math.floor(totalSeconds / 60);
+    let seconds = totalSeconds % 60;
+
+    let formattedSeconds = seconds.toString().padStart(2, '0');
+
+    return `${minutes}:${formattedSeconds}`;
+}
 
 router.get('/',(req, res) => {
     const filteredVideoData = videoData.map(video => ({
@@ -20,13 +32,33 @@ router.get('/:id',(req, res) => {
 
 router.use(express.json())
 
-
 router.post('/',(req, res) => {
     const requestBody = req.body
-    // Required body: title imagelink (CORS) description, duration
-    // check if the body is valid (all necessary fields are given) if not return 400
-    // construct the new detailed video data using the data given (timestamp, etc...)
-    // Add the newly constructed object to the data file
+    const currentVideos = JSON.parse(fs.readFileSync("data/video_data.json"))
+    if (!requestBody.title || !requestBody.description){
+        return res.status(400).json({
+            message: "invalid request body"
+        })
+    }
+    const newVideo =
+        {
+            id: crypto.randomUUID(),
+            title: requestBody.title,
+            channel: "Super Zeka Yigit Ocak",
+            image: "http://localhost:5050/kazanindibi.jpg",
+            description: requestBody.description,
+            views: 0,
+            likes: 0,
+            duration: getRandomDuration(),
+            video: "http://localhost:5050/aykut.mp4",
+            timestamp: Date.now(),
+            comments: []
+        }
+
+        currentVideos.push(newVideo)
+        fs.writeFileSync("data/video_data.json", JSON.stringify(currentVideos, null, 2));
+
+        res.status(201).json(newVideo)
 })
 
 export default router

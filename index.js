@@ -1,10 +1,13 @@
 import express from "express"
 import cors from "cors"
 import videos from "./routes/videos.js"
+import 'dotenv/config'
 const app = express()
-const PORT = 5050
+const PORT = process.env.PORT
+
 
 app.use(cors())
+app.use(express.static('public'));
 
 app.use((req, res, next) => {
     const apiKey = req.query.api_key
