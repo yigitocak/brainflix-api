@@ -2,10 +2,11 @@ import express from "express"
 import cors from "cors"
 import videos from "./routes/videos.js"
 import 'dotenv/config'
+import morgan from "morgan"
 const app = express()
 const PORT = process.env.PORT
 
-
+app.use(morgan('dev'));
 app.use(cors())
 app.use(express.static('public'));
 
