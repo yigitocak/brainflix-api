@@ -23,6 +23,6 @@ app.use((req, res, next) => {
 
 app.use("/videos", videos)
 
-app.listen(PORT, () => {
+app.listen(PORT || 5050, () => {
     console.log(`running on http://localhost:${PORT}`)
 })

@@ -60,8 +60,8 @@ router.post('/', async (req, res) => {
         const newVideo = {
             id: crypto.randomUUID(),
             title: requestBody.title,
-            channel: "aptal orhan",
-            image: "http://localhost:5050/assets/kazanindibi.jpg",
+            channel: "Yigit Ocak",
+            image: "http://localhost:5050/images/kazanindibi.jpg",
             description: requestBody.description,
             views: 0,
             likes: 0,
