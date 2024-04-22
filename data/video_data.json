@@ -8,7 +8,7 @@
     "views": "980,544",
     "likes": "22,479",
     "duration": "4:01",
-    "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
+    "video": "http://localhost:5050/video.mp4",
     "timestamp": 1691471862000,
     "comments": [
       {
@@ -43,7 +43,7 @@
     "views": "809,635",
     "likes": "400,058",
     "duration": "12:26",
-    "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
+    "video": "http://localhost:5050/video.mp4",
     "timestamp": 1690089462000,
     "comments": [
       {
@@ -78,7 +78,7 @@
     "views": "1,261,703",
     "likes": "729,753",
     "duration": "26:13",
-    "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
+    "video": "http://localhost:5050/video.mp4",
     "timestamp": 1700374662000,
     "comments": [
       {
@@ -113,7 +113,7 @@
     "views": "739,945",
     "likes": "198,352",
     "duration": "8:34",
-    "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
+    "video": "http://localhost:5050/video.mp4",
     "timestamp": 1676182662000,
     "comments": [
       {
@@ -148,7 +148,7 @@
     "views": "72,342",
     "likes": "8,785",
     "duration": "45:59",
-    "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
+    "video": "http://localhost:5050/video.mp4",
     "timestamp": 1677910662000,
     "comments": [
       {
@@ -176,7 +176,7 @@
     "views": "1,385,387",
     "likes": "576,588",
     "duration": "47:26",
-    "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
+    "video": "http://localhost:5050/video.mp4",
     "timestamp": 1680067062000,
     "comments": [
       {
@@ -211,7 +211,7 @@
     "views": "252,796",
     "likes": "4,905",
     "duration": "7:31",
-    "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
+    "video": "http://localhost:5050/video.mp4",
     "timestamp": 1692767862000,
     "comments": [
       {
@@ -246,7 +246,7 @@
     "views": "129,984",
     "likes": "62,552",
     "duration": "26:52",
-    "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
+    "video": "http://localhost:5050/video.mp4",
     "timestamp": 1698211062000,
     "comments": [
       {
@@ -274,7 +274,7 @@
     "views": "3,092,284",
     "likes": "75,985",
     "duration": "49:20",
-    "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
+    "video": "http://localhost:5050/video.mp4",
     "timestamp": 1701497862000,
     "comments": [
       {
@@ -294,36 +294,16 @@
     ]
   },
   {
-    "id": "266b131d-ca43-495f-8fd0-d2398586c265",
-    "title": "amina koyiyim",
-    "channel": "aptal orhan",
-    "image": "http://localhost:5050/assets/kazanindibi.jpg",
-    "description": "hepinizin",
-    "views": 0,
-    "likes": 0,
-    "duration": "6:03",
-    "video": "http://localhost:5050/aykut.mp4",
-    "timestamp": 1713719612430,
-    "comments": []
-  },
-  {
-    "id": "1fea9ff8-97e6-47bc-9440-1d0afe4aaf9c",
-    "title": "video yu",
-    "channel": "aptal orhan",
+    "id": "6bbeb8e3-dbf8-4315-876f-ad984538241b",
+    "title": "zamaz",
+    "channel": "Yigit Ocak",
     "image": "http://localhost:5050/images/kazanindibi.jpg",
-    "description": "silmem lazim",
+    "description": "zikra",
     "views": 0,
     "likes": 0,
-    "duration": "3:55",
+    "duration": "5:06",
     "video": "http://localhost:5050/aykut.mp4",
-    "timestamp": 1713719643352,
-    "comments": [
-      {
-        "name": "Yigit Ocak",
-        "comment": "nice!",
-        "id": "e2fd1ca1-c87d-4ae2-a4b4-7d664d905a72",
-        "timestamp": 1713719675562
-      }
-    ]
+    "timestamp": 1713742797475,
+    "comments": []
   }
 ]

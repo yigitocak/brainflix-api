@@ -20,7 +20,6 @@ app.use((req, res, next) => {
     next()
 })
 
-
 app.use("/videos", videos)
 
 app.listen(PORT || 5050, () => {
