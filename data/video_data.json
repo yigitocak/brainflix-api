@@ -47,6 +47,12 @@
     "timestamp": 1690089462000,
     "comments": [
       {
+        "name": "Yigit Ocak",
+        "comment": "asdasda",
+        "id": "3d373f33-6d47-44ac-9f9f-21465d9a0e78",
+        "timestamp": 1713747408431
+      },
+      {
         "id": "ade82e25-6c87-4403-ba35-47bdff93a51c",
         "name": "Maria Aziz",
         "comment": "Your travel diaries are like a passport to wanderlust! Each city comes alive through your lens, making me feel like I'm right there with you. Your storytelling captures the essence of these enchanting places, igniting a desire to explore Europe even more. Can't wait for the next adventure!",
@@ -292,18 +298,5 @@
         "timestamp": 1701584262000
       }
     ]
-  },
-  {
-    "id": "6bbeb8e3-dbf8-4315-876f-ad984538241b",
-    "title": "zamaz",
-    "channel": "Yigit Ocak",
-    "image": "http://localhost:5050/images/kazanindibi.jpg",
-    "description": "zikra",
-    "views": 0,
-    "likes": 0,
-    "duration": "5:06",
-    "video": "http://localhost:5050/aykut.mp4",
-    "timestamp": 1713742797475,
-    "comments": []
   }
 ]
